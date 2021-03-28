@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0fbb762279.js" crossorigin="anonymous"></script>   
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+      <section>
+  <h1 style="font-family: 'Roboto', sans-serif; font-size: 6vh; text-align: center; margin-right: 30%; margin-top: 2%;">Welcome <b>Josh</b></h1>
+   <form class="d-flex" style="width: 18rem; margin-left: 60%; margin-top: -4%;">
+        <input class="form-control me-2" type="search" id="search" placeholder="Search" aria-label="Search" style=" border-radius: 10px 0 10px 0 ;">
+        <button class="btn btn-outline-success" type="submit" style="border: none; "><i class="fas fa-search"></i></button>
+       <a href="#"><i class="far fa-bell" style="padding: 12px; background-color: white; border: none; border-radius: 10px 0px 10px 0px; background-color: #F3F6FF; margin-left: 5%;"></i></a>
+      </form>
+      <a href="#">
+      <img src="images/avatar.svg" class="img-fluid" alt="responsive" style="margin-left: 85%; margin-top: -5%;">
+      </a>
+  </section>
+
+  <section>
+       <sidebar>
+      <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#" id="logo"><img src="images/2bf27c68-2bc5-41b7-8827-e4168f5a8491-removebg-preview 1.svg" class="responsive img-fluid" id="zoom"></a>  
+  <div class="fonts">
+  <a href="#"><i class="fas fa-store"></i><span>Dashboard</span></a>
+  <a href="companies.html" style="margin-top: 10%;"><i class="far fa-file-alt" style="padding: 3px;"></i><span>Compaines</span></a>
+  <a href="social.html" style="margin-top: 10%;"><i class="fas fa-bullhorn" style="padding: 1px;"></i><span>Social</span></a>
+  <a href="events.html" style="margin-top: 10%;"><i class="fas fa-calendar-week" style="padding: 2px;"></i><span>Events</span></a>
+  <!-- <a href="#"><i class="fas fa-universal-access"></i><span>Sales</span></a> -->
+  <!-- <a href="#"><i class="fas fa-cog"></i><span>Settings</span></a> -->
+  <a href="#" style="margin-top: 27%;"><i class="fas fa-sign-out-alt"></i><span>Log Out</span></a>
+  <hr>
+</div>
+<div class="card" style="width: 13rem; margin-left: 6%;">
+  <img src="images/32px-icon-inside.svg" class="card-img-top" id="zoom" alt="..." style="height: 80px; width: 80px; align-self: center; margin-top: 12%;">
+  <div class="card-body" style="text-align: center;">
+    <h5 class="card-title">Subscribe to our <br>new plan<span style="color: #FB6D3A;"> $25</span></h5>
+    <p class="card-text">It is a limited time offer that will expire soon.</p>
+    </div>
+    <a href="checkout.html"><button type="button" id="paymentclick" class="btn btn-primary" style="margin-left: 6%; width: 8rem; font-size: 2vh;">Subscribe Now -></button>
+    
+  <a href="#"><button type="button" class="btn btn-outline-danger gap-2" style="margin-left: 6%; width: 8rem; font-size: 2vh;">More Info</button></a>
+</a>
+    
+</div>
+</div>
+
+
+<div id="main" style="margin-top: -2%; margin-left: -4px;">
+  <button class="openbtn" id="zoom" onclick="openNav()"><i class="fas fa-caret-right" style="align-self: center;"></i></button>
+</div>
+    </sidebar>
+  </section>
+
+  <section>
+      <div class="card mb-3" style="width: 22rem; height: 6rem; margin-left: 20%; background-color: #5940bb11; border-radius: 20px 0 20px 0; border: none;">
+  <div class="row g-0">
+    <div class="col-md-4" style="margin-top: 5%;">
+      <img src="images/orders.svg" class="img-fluid" alt="responsive" style="margin-left: 25%; margin-top: 3%; padding: 12px; background-color: white; border-radius: 10px 0 10px 0;">
+    </div>
+    <div class="col-md-8" ">
+      <div class="card-body">
+        <h5 class="card-title" style="margin-left: -20%;">23,789</h5>
+        <p class="card-text" style="margin-left: -20%;">Companies contacted</p>
+        <p class="card-text"><img src="images/badge.svg" class="img-fluid" alt="responsive" style="margin-left: 70%; margin-top: -70%;"></p>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+
+  <section style="margin-left: 45%; margin-top: -8%;">
+      <div class="card mb-3" style="width: 24rem; height: 6rem; margin-left: 20%; background-color: #ed1b1b36; border-radius: 20px 0 20px 0; border: none;">
+  <div class="row g-0">
+    <div class="col-md-4" style="margin-top: 5%;">
+      <img src="images/orders.svg" class="img-fluid" alt="responsive" style="margin-left: 25%; margin-top: 3%; padding: 12px; background-color: white; border-radius: 10px 0 10px 0;">
+    </div>
+    <div class="col-md-8" ">
+      <div class="card-body">
+        <h5 class="card-title" style="margin-left: -20%;">678</h5>
+        <p class="card-text" style="margin-left: -20%;">Companies Remaining</p>
+        <p class="card-text"><img src="images/badge.svg" class="img-fluid" alt="responsive" style="margin-left: 70%; margin-top: -65%;"></p>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+  <section>
+      <div class="card" style="width: 25rem; height: 30rem; margin-left: 69%; border: none;">
+  <h5 class="card" style="border: none; text-align: center;">Top sustaniable practices</h5>
+  <div class="card-body"><img src="images/Group 27190.svg">
+    <div class="ttxt" style="margin-left: 25%; margin-top: -100%;">
+    <h5 class="card-title" >No Poverty</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+    <br>
+     <h5 class="card-title">Climate Actions</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+    <br>
+     <h5 class="card-title">Gender Equality</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+    <br>
+     <h5 class="card-title">Quality Education</h5>
+    <p class="card-text">Lorem ipsum dolor sit amet.</p>
+    </div>
+    </div>
+</div>
+  </section>
+
+  <section style="margin-top: 15%;">
+      <img src="images/sales statistics chart.svg" class="img-fluid" alt:"responsive" style="width: 700px; height:700px; margin-left: 18%; margin-top: -65%;">
+  </section>
+  <section>
+      <!-- <img src="images/visitors chart.svg" class="img-fluid" alt="responsive" style="width: 400px; height: 400px; margin-top: -50%; margin-left: 65%;">  -->
+  </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+
+    <script>
+      /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+    </script>
+  </body>
+</html>
