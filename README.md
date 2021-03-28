@@ -24,7 +24,14 @@ Collabza is platform through which the NGOs can undoubtedly manage the product c
 - Collabza can collaborate with government polices in order to ensure sustainable development
 
 ## Mockups
+![dashboard (4)](https://user-images.githubusercontent.com/71998138/112749990-806e6a00-8fe3-11eb-9630-92891fb8cc91.png)
+![Companies](https://user-images.githubusercontent.com/71998138/112749993-849a8780-8fe3-11eb-883f-1f66f10729e9.png)
+![Social](https://user-images.githubusercontent.com/71998138/112749998-895f3b80-8fe3-11eb-9151-5d2d30c0f40d.png)
+
 
 ## Prototype
+![https://www.figma.com/file/BJ2WFJdUNTyv4Y8e6zaZLO/Collabza?node-id=129%3A2075]
+## Presentation
+![https://drive.google.com/drive/folders/1UKkSNjIbWyEORFsk1T1uqbE_DH21fVLv?usp=sharing]
 
 ## Prsentation Link
