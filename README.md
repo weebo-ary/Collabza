@@ -34,4 +34,4 @@ Collabza is platform through which the NGOs can undoubtedly manage the product c
 ## Presentation
 ![https://drive.google.com/drive/folders/1UKkSNjIbWyEORFsk1T1uqbE_DH21fVLv?usp=sharing]
 
-## Prsentation Link
+
